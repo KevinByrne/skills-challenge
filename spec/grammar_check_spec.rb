@@ -6,5 +6,10 @@ RSpec.describe "Checks the grammar in a text and returns true or false if text i
     result = grammar_check("this is a sentence")
     expect(result).to eq 'this is a sentence'
   end
+
+  it 'returns first character of text' do
+    result =grammar_check("this is a sentence")
+    expect(result).to eq 't'
+  end
   
 end
