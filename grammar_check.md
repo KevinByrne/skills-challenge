@@ -22,11 +22,12 @@ return value = true / false boolean to see if grammar is correct.
 Make a list of examples of what the method will take and return.
 
 grammar_check(This is a sentence.) => True
-grammar_check(this is a sentence) => False
-grammar_check (This is one sentence. This is another!) => True
-grammar_check (This is one sentence This is another!) => False
-grammar_check (this is one sentence. this is another) => False
-grammer_check (Is this a question? Yes it is a question.) => True
+grammar_check(This is a sentence) => False 
+grammar_check(this is a sentence.) => False
+grammar_check(THIS is a sentence.) => True
+grammar_check(This is a sentence!) => True
+grammar_check(This is a sentence?) => True
+
 
 4. Implement the behaviour
 After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour.
