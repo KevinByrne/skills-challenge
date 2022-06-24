@@ -1,3 +1,4 @@
-def reading_time(wpm)
-  est_read_time = 1
+def reading_time(amount_of_words)
+  words_per_minute = 200
+  est_reading_time = amount_of_words / words_per_minute
 end
