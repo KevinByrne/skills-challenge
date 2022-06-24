@@ -19,6 +19,6 @@ RSpec.describe "estimates reading time based on word per minute" do
 
   it "returns an estimated reading time of less than a minute based on 200 words per minute" do
     result = reading_time(150)
-    expect(result).to eq 
+    expect(result).to eq "This will take less than 1 minute to read"
   end
 end
